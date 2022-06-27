@@ -27,16 +27,4 @@ $ make generate
 ```
 - Add fields to crud methods in `service/model_service.go`
 - Update routes in `transports/http.go`
-- Add following environment variables:
-  - `DB_USERNAME`
-  - `DB_PASSWORD`
-  - `DB_HOST`
-  - `DB_PORT`
-  - `DB_NAME`
-  - `DB_CLUSTER`
-  - `GRPC_PORT`
-  - `HTTP_PORT`
-  - `AWS_ACCESS_KEY_ID`
-  - `AWS_SECRET_ACCESS_KEY`
-  - `AWS_COGNITO_REGION`
-  - `AWS_COGNITO_USER_POOL_ID`
+- Update Kubernetes config in `k8s/*`
